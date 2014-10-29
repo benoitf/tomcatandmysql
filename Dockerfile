@@ -1,4 +1,7 @@
 FROM codenvy/jdk7_tomcat7
+
+# Disable frontend
+
 ENV DEBIAN_FRONTEND noninteractive
  
 # Install MYSQL
